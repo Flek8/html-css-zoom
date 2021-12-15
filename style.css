@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    background-color: gray;
+    padding: 5px;
+}
+.btn1{
+    margin: 5px;
+    border-radius: 5px;
+}
+.flexdx{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.container{
+    padding: 50px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    width: 220px;
+    height: 120px;
+    margin: 2px;
+    background-image: url(https://picsum.photos/200/100);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.flexbtmsx{
+    display: flex;
+    align-items: flex-end;
+}
+.name{
+    color: white;
+    width: 40%;
+    font-size: 11px;
+}
+
+footer{
+    background-color: rgb(19, 18, 18);
+    position: absolute;
+    width: 100%;
+    margin-bottom: 0;
+}
