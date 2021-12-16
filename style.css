@@ -31,7 +31,7 @@ header a{
     align-items: center;
 }
 .container{
-    padding: 50px;
+    padding: 65px;
 }
 .flex{
     display: flex;
@@ -58,7 +58,56 @@ header a{
 
 footer{
     background-color: rgb(19, 18, 18);
-    position: absolute;
+    position: fixed;
+    bottom: 0;
     width: 100%;
-    margin-bottom: 0;
+    height: 60px;
+}
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menusx{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.menu-main{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.tasto i{
+    padding: 2px;
+}
+.tasto span{
+    padding: 2px;
+}
+.tasto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 5px;
+}
+.tasto:hover{
+    cursor: pointer;
+}
+.share i{
+    color: rgb(16, 143, 16);
+}
+.menudx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 100%;
+}
+.menudx .btn{
+}
+.menudx .btn a{
+    color: red;
+    text-decoration: none;
 }
